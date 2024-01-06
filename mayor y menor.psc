@@ -11,7 +11,7 @@
 //-->Datos a solicitado: edad_uno,edad_dos,edad_tres
 //-->Determinar si los valores puestos cual es mayor y menor
 //-->Determinar si los valores de mayor y menor son mayor o igual a edad_legal(18)
-//-->Salida de datos: Escribir "el mayor es: " edad_X "Cumple la mayoria de edad" , Escribir "El menor es: " edad_Y "No cumple la mayoria de edad"
+//-->Salida de datos: Escribir "el mayor es: " edad_X "Cumple la mayoria de edad" si excede o es igual a la edad_legal (18) , Escribir "El menor es: " edad_Y "No cumple la mayoria de edad" si es menor a la edad_legal(18)
 
 //Refinacion del diseño
 //-->Inicio
