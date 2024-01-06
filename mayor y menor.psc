@@ -3,13 +3,13 @@
 //ANALISIS
 //-->difinicion del problema: al ingresar los valores debemos buscar cual es el edad mayor y el edad menor, al mismo tiempo mostrarmos si son mayores de edad
 //-->Datos de entrada:edad_uno, edad_dos, edad_tres como Entero
-//-->Informacion de salida:mostrar la edad mayor y menor, determinar esas edades sin igual o mayor a 18
-//-->Variables:edad_uno,edad_dos,edad_tres,edad_legal como Entero
+//-->Informacion de salida:mostrar la edad mayor y menor, determinar esas edades son igual o mayor a 18
+//-->Variables:edad_uno,edad_do	s,edad_tres,edad_legal como Entero
 
 //DISEÑO
 //-->Entrada de datos: Pedir los valores de entrada de las tres edades
 //-->Datos a solicitado: edad_uno,edad_dos,edad_tres
-//-->Comparacion:ver si los valores puestos es mayor y menor
+//-->Comparacion:ver si los valores puestos son mayor y menor
 //-->Comparacion:ver si las edades mayor y menor son mayor o igual a la edad_legal(18)
 //-->Informacion de salida: Escribir "el mayor es: " edad_X "Cumple la mayoria de edad" si excede o es igual a la edad_legal (18) , Escribir "El menor es: " edad_Y "No cumple la mayoria de edad" si es menor a la edad_legal(18)
 
