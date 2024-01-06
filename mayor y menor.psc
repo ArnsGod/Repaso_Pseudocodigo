@@ -10,7 +10,7 @@
 //-->Entrada de datos: Pedir los valores de entrada de las tres edades
 //-->Datos a solicitado: edad_uno,edad_dos,edad_tres
 //-->Determinar si los valores puestos cual es mayor y menor
-//-->Determinar si los valores de mayor y menor son moyor o igual a edad_legal(18)
+//-->Determinar si los valores de mayor y menor son mayor o igual a edad_legal(18)
 //-->Salida de datos: Escribir "el mayor es: " edad_X "Cumple la mayoria de edad" , Escribir "El menor es: " edad_Y "No cumple la mayoria de edad"
 
 //Refinacion del diseño
