@@ -1,13 +1,13 @@
 //JOSE EDUARDO FLORES SARAVIA
 //Se desa crear un menu de operaciones matematicas, en que el usuario tenga que ingresar los valores primero antes de iniciar la operacion
 //ANALISIS
-//Definicion de problema: mostrar un menu con diferentes operaciones matematicas, ejercer una restriccion al ingreso de ella en el cual se basa que el usuario debe ingresar los valores primero antes de su calculo
+//Definicion de problema: mostrar un menu con diferentes operaciones matematicas, ejercer una restriccion al ingreso en el cual se basa que el usuario debe ingresar los valores primero antes de su calculo
 //datos de entrada: num_uno,num_dos,opcion como entero, las variables num_ Son valores que debe ingresar el usuario para su calculo matematico, la variable opcion es para escoger que opcion del menu desea
 //informacion de salida:res_num como real, la variable res_num nos mostrar el resultado de dicha operacion
 //Variables:num_uno,num_dos,opcion como entero/res_num como real/valores_ingresado como logico
 //la variable valores_ingresado como logica, significa que tiene dos posibles respuestas verdadero o falso, Verdadero significa que los valores han sido ingresados y se puede proceder con la operacion matematica, si es falso aun no a asignado los valores.
 
-//DISEÑO
+//DISEÃ‘O
 //1.mostrar el menu al usuario, de las operaciones matematicas (suma,multiplicacion,division),ingreso de valores, salir
 //2.esperar el valor que de en la variable opcion
 //3.Dependiendo de la opcion escogida se dara la secuencia siguentes:
