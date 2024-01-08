@@ -73,7 +73,7 @@ Algoritmo sin_titulo
                 Leer num_dos
                 valores_ingresado = Verdadero
 			De Otro Modo:
-				Escribir "no se ingreso a una opcion valida"
+				Escribir "finalizando programa"
 		FinSegun
 		Esperar Tecla
     Hasta Que opcion = 0
