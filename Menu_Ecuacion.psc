@@ -42,7 +42,8 @@ Algoritmo sin_titulo
                 Sino
                     Escribir "!!!Ingrese los valores primero!!!"
                 FinSi
-				
+				Escribir "pulse una tecla para finalizar"
+				Esperar Tecla
             Caso 2:
 				Limpiar Pantalla
                 Si (valores_ingresado) Entonces
@@ -51,7 +52,8 @@ Algoritmo sin_titulo
                 Sino
                     Escribir "!!!Ingrese los valores primero!!!"
                 FinSi
-				
+				Escribir "pulse una tecla para finalizar"
+				Esperar Tecla
             Caso 3:
 				Limpiar Pantalla
                 Si (valores_ingresado) Entonces
@@ -64,7 +66,8 @@ Algoritmo sin_titulo
                 Sino
                     Escribir "!!!Ingrese los valores primero!!!"
                 FinSi
-				
+				Escribir "pulse una tecla para finalizar"
+				Esperar Tecla
             Caso 4:
 				Limpiar Pantalla
                 Escribir "Digite el primer valor: "
@@ -73,8 +76,10 @@ Algoritmo sin_titulo
                 Leer num_dos
                 valores_ingresado = Verdadero
 			De Otro Modo:
-				Escribir "opcion no valida"
+				Escribir "no se ingreso a una opcion valida"
 		FinSegun
 		Esperar Tecla
+		Escribir "pulse una tecla para finalizar"
     Hasta Que opcion = 0
 FinAlgoritmo
+
