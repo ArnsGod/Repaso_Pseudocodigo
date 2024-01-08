@@ -42,7 +42,7 @@ Algoritmo sin_titulo
                 Sino
                     Escribir "!!!Ingrese los valores primero!!!"
                 FinSi
-				Esperar Tecla
+				
             Caso 2:
 				Limpiar Pantalla
                 Si (valores_ingresado) Entonces
@@ -51,7 +51,7 @@ Algoritmo sin_titulo
                 Sino
                     Escribir "!!!Ingrese los valores primero!!!"
                 FinSi
-				Esperar Tecla
+				
             Caso 3:
 				Limpiar Pantalla
                 Si (valores_ingresado) Entonces
@@ -64,7 +64,7 @@ Algoritmo sin_titulo
                 Sino
                     Escribir "!!!Ingrese los valores primero!!!"
                 FinSi
-				Esperar Tecla
+				
             Caso 4:
 				Limpiar Pantalla
                 Escribir "Digite el primer valor: "
