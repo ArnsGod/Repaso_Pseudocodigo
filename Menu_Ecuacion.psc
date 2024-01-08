@@ -8,7 +8,7 @@
 //la variable valores_ingresado como logica, significa que tiene dos posibles respuestas verdadero o falso, Verdadero significa que los valores han sido ingresados y se puede proceder con la operacion matematica, si es falso aun no a asignado los valores.
 
 //DISEÑO
-//1.mostrar el menu al usuario, de las operaciones matematicas (suma,multiplicacion,division),ingreso de valores, salir
+//1.mostrar el menu al usuario, las siguentes operaciones matematicas (suma,multiplicacion,division),el ingreso de valores y salir del programa
 //2.esperar el valor que de en la variable opcion
 //3.Dependiendo de la opcion escogida se dara la secuencia siguentes:
 //  Si el usuario ingreso la opcion 1-2-3 no validara la operacion sin los valores asignados previamente
