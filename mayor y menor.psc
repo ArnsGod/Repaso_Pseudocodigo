@@ -154,3 +154,65 @@ Algoritmo sin_titulo
 		FinSi
 	FinSi
 FinAlgoritmo
+
+
+#include <iostream>
+
+using namespace std;
+
+char caracter[] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
+int numero[26];
+char c[26];
+
+char generarCaracter()
+{
+	return caracter[rand() % 26];
+}
+
+int generarNumero()
+{
+	return rand() % 51;
+}
+
+void imprimir()
+{
+	cout << "Car\tNUM" << endl;
+	for (int i = 0; i < 26; i++)
+		cout << c[i] << "\t" << numero[i] << endl;
+}
+
+void generarDatos()
+{
+	for (int i = 0; i < 26; i++)
+	{
+		numero[i] = generarNumero();
+		c[i] = generarCaracter();
+	}
+}
+
+void antDuplicado()
+{
+	for (int i = 0; i < 26; i++)//bucle externo
+	{
+		for (int j = 0; j < i; j++)//bucle interno
+		{
+			//Generar una nueva letra con uso de un bucle while
+			while (c[i] == c[j])//Si la letra de la pocion i es igual a la letra de la pocision j entonces inicia este bucle
+			{
+				/*si se detecta una letra duplicada c[i] va a agenerar un nuevo caracter*/
+				c[i] = generarCaracter();
+				/*Una vez cambiado el caracter el contador interno c[j] se reinicia para verificar que no se generen caracteres identicos.*/
+				j = 0; // Reiniciar el bucle interno para verificar desde el principio
+			}
+		}
+	}
+}
+
+int main(int argc, char *argv[])
+{
+	generarDatos();
+	antDuplicado();
+	imprimir();
+	return 0;
+}
+
